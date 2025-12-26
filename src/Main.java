@@ -19,8 +19,8 @@ public class Main {
         }
         System.out.println();
         System.out.println("Задание 3");
-        int speed = 70;
-        if (speed > 60) {
+        int speed = 60;
+        if (speed >= 61) {
             System.out.println("Если скорость" + " " + speed + "," + "то придется заплатить штраф.");
         } else {
             System.out.println("Если скорость" + " " + speed + "," + "то можно ездить спокойно.");
@@ -43,40 +43,39 @@ public class Main {
         System.out.println();
         System.out.println("Задание 5");
         int ageKid = 2;
-        if (ageKid <5){
-            System.out.println("Если возраст ребенка равен"+" "+ ageKid +","+"то ему нельзя кататься на аттракционе.");
+        if (ageKid < 5) {
+            System.out.println("Если возраст ребенка равен" + " " + ageKid + "," + "то ему нельзя кататься на аттракционе.");
         }
-        if (ageKid >5 && ageKid <=14){
-            System.out.println("Если возраст ребенка равен"+" "+ ageKid +","+"то ему можно кататься на аттракционе в сопровождении.");
+        if (ageKid > 5 && ageKid <= 14) {
+            System.out.println("Если возраст ребенка равен" + " " + ageKid + "," + "то ему можно кататься на аттракционе в сопровождении.");
         }
-        if (ageKid>14){
-            System.out.println("Если возраст ребенка равен"+" "+ ageKid +","+"то ему можно кататься на аттракционе без сопровождения взрослого.");
+        if (ageKid > 14) {
+            System.out.println("Если возраст ребенка равен" + " " + ageKid + "," + "то ему можно кататься на аттракционе без сопровождения взрослого.");
         }
         System.out.println();
         System.out.println("Задание 6");
-        int passengers=70;
-        int totalPassengers=102;
-        int seatingPassengers=60;
-        if (passengers<seatingPassengers){
+        int passengers = 70;
+        int totalPassengers = 102;
+        int seatingPassengers = 60;
+        if (passengers < seatingPassengers) {
             System.out.println("В вагоне есть свободные сидячие места");
-        }else if (passengers<totalPassengers){
+        } else if (passengers < totalPassengers) {
             System.out.println("В вагоне есть свободные стоячие места");
-        }else {
+        } else {
             System.out.println("Вагон полностью забит");
         }
         System.out.println();
         System.out.println("Задание 7");
-        int one=11;
-        int two=6;
-        int three=3;
-        if (one>two && one>three){
-            System.out.println("Наибольшее число:"+" "+one);
-        }else if (two>one && two>three){
-            System.out.println("Наибольшее число:"+" "+two);
-        }else {
-            System.out.println("Наибольшее число:"+" "+three);
+        int one = 11;
+        int two = 6;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println("Наибольшее число:" + " " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Наибольшее число:" + " " + two);
+        } else {
+            System.out.println("Наибольшее число:" + " " + three);
         }
-
 
 
     }
