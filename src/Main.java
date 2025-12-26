@@ -18,7 +18,7 @@ public class Main {
             System.out.println("На улице" + " " + temperature + " " + "градусов,можно идти без шапки.");
         }
         System.out.println();
-        System.out.println("Задание 3");
+        System.out.println("Задание 3");//Задание 3
         int speed = 60;
         if (speed >= 61) {
             System.out.println("Если скорость" + " " + speed + "," + "то придется заплатить штраф.");
@@ -26,7 +26,7 @@ public class Main {
             System.out.println("Если скорость" + " " + speed + "," + "то можно ездить спокойно.");
         }
         System.out.println();
-        System.out.println("Задание 4");
+        System.out.println("Задание 4");//Задание 4
         int year = 24;
         if (year >= 2 && year <= 6) {
             System.out.println("Если возраст человека равен" + " " + year + "," + "то ему нужно ходить в детский сад.");
@@ -41,7 +41,7 @@ public class Main {
             System.out.println("Если возраст человека равен" + " " + year + "," + "то ему пора ходить на работу.");
         }
         System.out.println();
-        System.out.println("Задание 5");
+        System.out.println("Задание 5");//Задание 5
         int ageKid = 2;
         if (ageKid < 5) {
             System.out.println("Если возраст ребенка равен" + " " + ageKid + "," + "то ему нельзя кататься на аттракционе.");
@@ -53,7 +53,7 @@ public class Main {
             System.out.println("Если возраст ребенка равен" + " " + ageKid + "," + "то ему можно кататься на аттракционе без сопровождения взрослого.");
         }
         System.out.println();
-        System.out.println("Задание 6");
+        System.out.println("Задание 6");//Задание 6
         int passengers = 70;
         int totalPassengers = 102;
         int seatingPassengers = 60;
@@ -65,7 +65,7 @@ public class Main {
             System.out.println("Вагон полностью забит");
         }
         System.out.println();
-        System.out.println("Задание 7");
+        System.out.println("Задание 7");//Задание 7
         int one = 11;
         int two = 6;
         int three = 3;
